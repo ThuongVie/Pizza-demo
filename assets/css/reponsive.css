@@ -1,0 +1,34 @@
+/* PC */
+@media (min-width:1024px){
+    .hide-on-pc{
+        display: none;
+    }
+}
+
+/* TABLET AND MOBILE */
+@media (max-width: 1023px){
+    .hide-on-tablet-mobile{
+        display: none;
+    }
+}
+
+/* TABLET  */
+@media (min-width: 740px) and (max-width: 1023px){
+
+}
+
+/* MOBILE */
+@media  (max-width:739px) {
+    .hide-on-mobile{
+        display: none;
+    }
+
+    .hero-middle span{
+        font-size: 6rem;
+        font-weight: 700;
+    }
+
+    .hero-middle .btn{
+        white-space: nowrap;
+    }
+}

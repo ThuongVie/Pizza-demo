@@ -1,0 +1,285 @@
+
+/* HEADER */
+
+/* TOP_BAR */
+.top-bar{
+    position: fixed;
+    background-color: var(--black-color);
+    opacity: 0.6;
+    width: 100%;
+    overflow: auto;
+    z-index: 999;
+}
+
+.top-bar:hover{
+    opacity: 1;
+}
+
+.top-bar__list{
+    display: flex;
+}
+
+.top-bar__list > li > a {
+    color: var(--font-color);
+    font-size: 2.4rem;
+    display: block;
+    text-decoration: none;
+}
+
+/* MAIN */
+
+/* HERO */
+
+.hero{
+    background: no-repeat url(../img/pizza.jpg) ;
+    background-size: cover ;
+    position: relative;
+    height: 90vh;
+    filter: grayscale(50%);
+    text-align: center;
+}
+
+.hero-middle{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+
+}
+
+.hero-middle span{
+    display: block;
+    font-size: 10rem;
+    color: var(--font-color);
+    text-align: center;
+}
+
+.hero-middle .btn{
+    font-size: 3.6rem;
+    color: var(--font-color);
+    background: var(--black-color);
+    border: none;
+}
+
+.hero-middle .btn a {
+    text-decoration: none;
+    color: var(--font-color);
+    display: block;
+    line-height: 5.4rem;
+}
+
+.hero-middle .btn:hover a{
+    color: var(--black-color);
+}
+
+.hero-tag{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    display: block;
+    background: var(--black-color);
+    color: var(--white-color);
+    font-size: 2.4rem;
+    padding: 0px 8px;
+}
+
+/* ABOUT */
+
+/* ABOUT MENU */
+
+.about-menu{
+    background: var(--black-color);
+}
+
+.about-heading{
+    font-size: 6.4rem;
+    color: var(--font-color);
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.about-menu__claasify-wrapper{
+    border: 1px solid #616161;
+}
+
+.about-menu__claasify{
+    color: var(--font-color);
+    font-size: 3.6rem;
+    text-align: center;
+    padding: 12px 24px;
+}
+
+.about-menu__claasify:hover ,
+.about-menu__claasify-active {
+    background:#f44336;
+}
+
+.about-menu__list{
+    background: var(--white-color);
+}
+
+.about-menu__list-item{
+    font-size: 3.6rem;
+    padding: 42px 16px;
+    margin-bottom: 46px;
+}
+
+.about-menu__dish-price{
+    float: right;   
+    display: block;
+    background: #616161;
+    color:var(--font-color);
+    padding: 0px 8px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.about-menu__dish-desc{
+    margin: 36px 0px;
+    color: #757575;
+}
+
+.about-menu__dish-tag{
+    padding: 0px 8px;
+    border-radius: 4px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.about-menu__dish-tag--hot{
+    background: #f44336;
+    color: var(--font-color);
+}
+
+.about-menu__dish-tag--new{
+    background: #9e9e9e;
+    color: var(--black-color);
+}
+
+/* ABOUT RESTAURANT */
+.about-restaurant{
+    color: #fff;
+    background-color: #f44336;
+    filter: grayscale(75%);
+}
+
+.about-restaurant__paragraphy{
+    font-size: 2.4rem;
+    margin-bottom: 24px;
+}
+
+.about-restaurant__chef{
+    font-size: 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.about-restaurant__chef-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.about-restaurant__chef-about span{
+    display: block;
+}
+
+.about-restaurant__chef-img img{
+    width: 150px;
+    border-radius:50%;
+}
+
+.about-restaurant__img img{
+    width: 100%;
+    margin-bottom: 24px;
+    display: block;
+}
+
+.about-restaurant_time--open{
+
+}
+
+.about-restaurant_time--heading{
+    font-size: 3.6rem;
+    font-weight: 700;
+}
+
+.about-restaurant_time--about{
+    font-size: 2.4rem;
+}
+
+.about-restaurant_time--about p{
+    margin: 24px 0px;
+}
+
+.about-restaurant_time--about{
+
+}
+
+/* MAP */
+.about-map--img img{
+    width: 100%;
+    filter: grayscale(75%);
+    display: block;
+}
+
+/* ABOUT CONTACT */
+
+.about-contact{
+    background: #607d8b;
+    filter: grayscale(50%);
+}
+
+.about-contact__desc{
+    font-size: 2.4rem;
+    color: var(--font-color);
+}
+
+.about-contact__desc > p{
+    margin: 24px 0px;
+}
+
+.about-contact__desc > p > span{
+    background: var(--black-color);
+    padding: 0px 8px;
+    display: inline-block;
+}
+
+.about-contact__input-heading{
+    font-size: 3.6rem;
+    color: var(--font-color);
+    margin: 36px 0px;
+}
+
+.about-contact__input input{
+    display: block;
+    width: 100%;
+    padding: 16px 8px ;
+    font-size: 2.4rem;
+    margin-bottom: 24px;
+    line-height: 3.6rem;
+    border: 1px solid #ccc;
+}  
+
+.about-contact__input .btn{
+    width: 100%;
+    font-size: 2.4rem;
+    border: none;
+    line-height: 3.6rem;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+/* FOOTER */
+.footer{
+    background: var(--black-color);
+}
+
+.footer-link ,
+.footer-link a{
+    font-size: 3.6rem;
+    color: var(--font-color);
+    text-align: center;
+    margin: 20px 0px;
+}
